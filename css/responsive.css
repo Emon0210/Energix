@@ -1,0 +1,586 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+
+
+/* *********************************************************************************************************** */
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+}
+
+
+
+/* *********************************************************************************************************** */
+
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* *********************************************************************************************************** */
+
+
+
+
+
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+
+
+/* *********************************************************************************************************** */
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+  /* *****************   
+   Global css 
+****************** */
+
+
+  .container {
+    width: 80%;
+  }
+
+
+
+  /* *****************   
+   Headrer css 
+****************** */
+
+
+  .top-bar .container .top-bar-text {
+    flex-direction: column-reverse;
+    margin-left: -100px;
+  }
+
+  .top-bar .container .top-bar-text ul li {
+    width: 281% !important;
+    font-size: 14px;
+    display: flex !important;
+  }
+
+
+  .top-bar .container .top-bar-text ul li a {
+    display: flex;
+  }
+
+  .top-bar .container .top-bar-text ul li a i {
+    margin-top: 5px;
+  }
+
+  .top-bar .container .top-bar-text .top-bar-mail {
+    margin-left: 53px;
+
+  }
+
+  .top-bar .container .top-bar-text .top-bar-mail a {
+    font-size: 12px;
+
+  }
+
+  .top-bar .container .top-bar-text .top-bar-mail a i {
+
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+
+    font-size: 15px !important;
+
+  }
+
+  .top-bar .container .top-bar-text .top-bar-mail p {
+    font-size: 12px;
+
+  }
+
+
+
+  .header-section .container .menu-bar {}
+
+
+  .header-section .container .menu-bar .logo {}
+
+  .header-section .container .menu-bar .logo img {
+
+    width: 80%;
+  }
+
+
+  .header-section .container .menu-bar .menu {
+    margin-left: -65px !important;
+
+  }
+
+  .header-section .container .menu-bar .menu .navbar-nav {
+    display: flex;
+  }
+
+
+  .header-section .container .menu-bar .btn {
+
+    margin-left: 13px;
+
+  }
+
+  .header-section .container .menu-bar .btn button {
+
+    border-radius: 55px !important;
+    padding: 5px 5px !important;
+    margin: 3px -24px !important;
+    font-size: 12px !important;
+
+  }
+
+
+
+  /* *****************   
+   banner css 
+****************** */
+
+
+  .banner-section .banner-slider .item img {
+
+    height: 65vh !important;
+  }
+
+  .banner-section .overlay {
+
+    margin-top: 55px !important;
+    width: 70% !important;
+    height: 42vh !important;
+  }
+
+  .banner-section .banner-slider .item .carousel-caption {
+
+    margin-bottom: 50px !important;
+    margin-left: -40px !important;
+    padding-left: 15px !important;
+  }
+
+
+
+  .banner-section .banner-slider .item .carousel-caption h2 {
+
+
+    font-size: 18px !important;
+    font-weight: 600;
+
+
+  }
+
+
+
+  .banner-section .banner-slider .item .carousel-caption p {
+
+    width: 90% !important;
+    font-size: 15px !important;
+
+  }
+
+  .banner-section .banner-slider .item .carousel-caption a {
+
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+  }
+
+
+
+
+  /* *****************   
+   installation css 
+****************** */
+
+
+
+  .installation-section .container .row .col-lg-6 {
+
+    margin-bottom: 20px;
+  }
+
+
+
+  /* *****************   
+   energy-saving   css 
+****************** */
+
+
+
+
+  .energy-saving .container .row .col-lg-6 .heading h2 {
+
+    font-size: 35px !important;
+    line-height: 45px !important;
+    padding-bottom: 20px !important;
+  }
+
+
+  .gap .container .row .col-lg-6 .renewable-group p {
+    font-size: 15px;
+  }
+
+
+
+
+  .gap .container .mt-5 .col-lg-6 .battery-storage {
+    margin-bottom: 30px;
+  }
+
+
+  .gap .container .mt-5 .col-lg-6 .battery-storage p {
+    margin-bottom: -5px;
+  }
+
+
+
+/* ***********************   
+   recent-project section css 
+************************ */
+
+.recent-projects-section  .container .heading .line {
+  margin-left: 135px !important;
+  width: 15% !important;
+}
+
+
+
+.recent-projects-section  .container .heading h2 {
+
+  font-size: 40px !important;
+  line-height: 50px !important;
+}
+
+
+
+
+
+
+
+  /* ***********************   
+   energix section css 
+************************ */
+
+  .energix .container .row .col-lg-7 .video i {
+
+    margin-left: 100px !important;
+    margin-top: -135px !important;
+
+
+  }
+
+  .energix-contact {
+    display: flex !important;
+    width: 108%;
+  }
+
+
+
+  .call-for {
+
+    width: 54%;
+    border-radius: 30px;
+    padding: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+
+
+  .call-for P {
+
+    font-size: 12px;
+    width: 200%;
+    margin-left: -20px;
+  }
+
+
+  .call-for a {
+
+    font-size: 13px !important;
+    margin-left: -22px;
+
+  }
+
+  .call-for.mail-for {
+    width: 50%;
+  }
+
+
+
+  .call-for.mail-for a {
+    font-size: 12px !important;
+    margin-left: -32px;
+  }
+
+
+/* ***********************   
+   process-solutions section css 
+************************ */
+
+
+
+.process-solutions .container .heading .line {
+  margin-left: 105px !important;
+  width: 25% !important;
+}
+
+
+
+  .process-solutions .container .heading h2 {
+    font-size: 35px !important;
+    line-height: 48px !important;
+  }
+
+
+
+  
+/* ***********************   
+  pricing-plans section css 
+************************ */
+
+
+
+
+  .pricing-plans .container .heading .line {
+    margin-left: 135px !important;
+    width: 15% !important;
+  }
+
+
+
+  .pricing-plans .container .heading h2 {
+
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+
+
+
+
+
+
+  /* ***********************   
+   message section css 
+************************ */
+
+
+
+
+  .message .container .heading p {
+   width: 110%;
+}
+
+
+.message .container .heading h2 {
+  font-size: 25px !important;
+  line-height: 35px !important;
+  width: 140% !important;
+}
+
+.message .container .heading h6 {
+  
+  width: 150% !important;
+  line-height: 28px !important;
+  font-size: 15px !important;
+  margin-bottom: 40px;
+
+}
+
+.message .container form.request-quote-form {
+  width: 130% !important;
+
+  
+}
+
+.message .container form.request-quote-form input, form.request-quote-form textarea {
+  width: 105% !important;
+  height: 40px !important;
+  padding-left: 18px !important;
+}
+
+.message .container form.request-quote-form input::placeholder  {
+
+font-size: 12px;
+
+}
+
+form.request-quote-form textarea {
+  height: 90px !important;
+}
+
+
+.message .container .button {
+ 
+  
+  padding: 10px 25px !important;
+  font-size: 13px !important;
+ 
+}
+
+
+/* ***********************   
+   blog section css 
+************************ */
+
+.blog-update .container .heading .line {
+  margin-left: 135px !important;
+  width: 15% !important;
+}
+
+
+
+.blog-update .container .heading h2 {
+
+  font-size: 40px !important;
+  line-height: 50px !important;
+}
+
+
+
+
+
+
+  /* ***********************   
+   footer section css 
+************************ */
+
+
+
+.contact-info {
+  padding: 5px  !important;
+  margin-bottom: 30px;
+  
+}
+
+
+.contact-info h4 {
+  font-size: 15px !important;
+}
+
+
+
+.contact-info p {
+  font-size: 13px;
+}
+
+
+
+
+
+
+  .footer-bottom {
+    flex-direction: column !important;
+  }
+
+
+  .footer-bottom p {
+    font-size: 14px;
+  }
+
+
+  .footer-bottom ul {
+    flex-direction: column;
+ 
+  }
+
+
+
+  .footer-bottom ul li {
+    margin-left: -80px;
+   
+  }
+
+
+  .footer-bottom ul li a {
+    font-size: 14px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+}
+
+
+
+/* ******************************************************* END ********************************************* */
